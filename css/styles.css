@@ -48,7 +48,7 @@ Top navigation bar
 	left: 0;
 	width: 100%;
 	z-index: 1000;
-  }
+}
   
 .topnav a {
     color: #f2f2f2;
@@ -94,7 +94,7 @@ Top navigation bar
 
 	.topnav a.icon {
 		float: right;
-		display: block;
+        display: block;
     }
 
 	.topnav.responsive {
@@ -124,4 +124,18 @@ Main content
 .main-content {
     margin-top: 95px;
     text-align: center;
+}
+
+input[type=search] {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    color: #D7D7D7;
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    height: 40px;
+    margin: 35px auto;
+    padding: 5px;
+    width: 345px;
 }

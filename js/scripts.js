@@ -11,3 +11,11 @@ function responsiveNav() {
 	  y.className = "topnav-items";
 	}
 }
+
+function openNav() {
+    document.getElementById("myTopnav").style.width = "300px";
+  }
+  
+  function closeNav() {
+    document.getElementById("myTopnav").style.width = "0";
+  }
