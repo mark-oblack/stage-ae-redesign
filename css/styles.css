@@ -61,11 +61,15 @@ Top navigation bar
 }
 
 .topnav a {
-	float: left;
+    float: left;
 }
 
 .topnav-items {
 	float: right;
+}
+
+.topnav a img {
+    float: left;
 }
   
 .topnav-items a:hover,
