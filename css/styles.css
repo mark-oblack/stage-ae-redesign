@@ -9,7 +9,7 @@ Fonts
 Base styles
 ===================================================*/
 
-p, h1, h2, h3, h4, h5, h6 {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -19,6 +19,13 @@ h1 {
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+h3 {
+    color: #12718d;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 p {
@@ -148,4 +155,58 @@ input[type=search] {
     margin: 35px auto;
     padding: 5px;
     width: 345px;
+}
+
+
+
+/*===================================================
+Featured events
+===================================================*/
+
+.featured-events h3 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.event-flex-item {
+    margin-bottom: 35px;
+}
+
+.event-flex-item img {
+    width: 100%;
+}
+
+.event-details {
+    background-color: rgba(45, 45, 45, 0.6);
+    display: flex;
+    height: 60px;
+    position: absolute;
+    margin-top: -60px;
+    width: 100%;
+    z-index: 100;
+}
+
+.event-details h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.event-details div {
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.event-details p {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
 }
