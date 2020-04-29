@@ -179,6 +179,9 @@ Featured events
 .event-details {
     background-color: rgba(45, 45, 45, 0.6);
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
     position: absolute;
     margin-top: -60px;
@@ -190,7 +193,7 @@ Featured events
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .event-details div {
@@ -198,15 +201,14 @@ Featured events
     border-radius: 50%;
     display: flex;
     align-items: center;
-    margin-top: 8px;
-    margin-right: 10px;
     padding: 5px;
+    margin-right: 10px;
     height: 35px;
     width: 35px;
 }
 
 .event-details p {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 300;
     text-align: center;
 }
