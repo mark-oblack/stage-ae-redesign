@@ -142,6 +142,12 @@ Featured events
     margin-bottom: 35px;
 }
 
+.event-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 .event-flex-item {
     margin-bottom: 35px;
 }

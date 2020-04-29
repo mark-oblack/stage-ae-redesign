@@ -34,3 +34,19 @@
         margin: 15px 0;
     }
 }
+
+@media screen and (min-width: 650px) {
+	.event-flex-item,
+	.event-details {
+		width: 40%;
+	}
+
+	.event-flex-item {
+		margin: 10px;
+	}
+
+	.event-flex-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
