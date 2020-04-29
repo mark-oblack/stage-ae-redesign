@@ -1,7 +1,7 @@
 /*===================================================
 Fonts
 ===================================================*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
 
@@ -38,6 +38,14 @@ p {
 .caption {
     font-size: 14px;
     font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 
@@ -84,11 +92,11 @@ Top navigation bar
     float: left;
 }
   
-.topnav-items a:hover,
+/* .topnav-items a:hover,
 .topnav h1:hover {
 	color: #FA8231;
 	transition: 0.3s ease;
-}
+} */
 
 
 
@@ -184,3 +192,18 @@ Featured events
 Primary button
 ===================================================*/
 
+.primary-btn {
+    background-color: #12718d;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 auto 35px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.large {
+    height: 40px;
+    width: 200px;
+}
