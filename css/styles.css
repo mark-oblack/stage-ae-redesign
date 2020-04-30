@@ -84,7 +84,8 @@ Top navigation bar
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 1.15em;
-    padding: 25px 10px 15px 10px;
+    font-weight: 700;
+    padding: 25px 15px 15px 15px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -146,6 +147,7 @@ Featured events
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 .event-flex-item {
@@ -213,6 +215,7 @@ Primary button
 
 .primary-btn:hover {
     background-color: #7db1c0;
+    cursor: pointer;
     transition: 0.3s ease-in;
 }
 
@@ -230,12 +233,17 @@ Newsletter ad
 .newsletter-ad {
     background: #2d2d2d url(../assets/images/newsletter-bg.png) no-repeat center;
     background-size: cover;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
     margin-bottom: 35px;
 }
 
 .newsletter-ad div {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
     width: 95%;
 }
@@ -278,6 +286,7 @@ footer ul {
     justify-content: space-evenly;
     list-style: none;
     width: 80%;
+    max-width: 800px;
 }
 
 footer ul li {

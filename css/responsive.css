@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 739px) {
 	.topnav a:not(:first-child),
 	.topnav-items {
         display: none;
@@ -36,17 +36,54 @@
 }
 
 @media screen and (min-width: 650px) {
-	.event-flex-item,
-	.event-details {
-		width: 40%;
+	input[type=search] {
+		width: 550px;
 	}
 
-	.event-flex-item {
-		margin: 10px;
+	.event-flex-item,
+	.event-details {
+		width: 45%;
 	}
 
 	.event-flex-container {
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.event-flex-item img,
+	.event-flex-item .event-details {
+		max-width: 450px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	h3 {
+		font-size: 32px;
+	}
+
+	.caption {
+		font-size: 16px;
+	}
+
+	.primary-btn {
+		font-size: 16px;
+	}
+
+	.large {
+		height: 50px;
+		width: 250px;
+	}
+
+	.newsletter-ad {
+		height: 400px;
+	}
+
+	.newsletter-ad h5 {
+		font-size: 24px;
+	}
+
+	footer ul li {
+		font-size: 16px;
 	}
 }
