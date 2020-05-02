@@ -74,6 +74,10 @@ Top navigation bar
 	z-index: 1000;
 }
 
+#nav-toggle {
+    width: 25px;
+}
+
 .topnav a {
     padding: 15px 20px;
 }
