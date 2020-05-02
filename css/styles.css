@@ -175,7 +175,7 @@ Featured events
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .event-details div {
@@ -184,7 +184,7 @@ Featured events
     display: flex;
     align-items: center;
     padding: 5px;
-    margin-right: 10px;
+    margin-right: 15px;
     height: 35px;
     width: 35px;
 }
@@ -193,6 +193,15 @@ Featured events
     font-size: 13px;
     font-weight: 300;
     text-align: center;
+}
+
+.event-details div .blue-circle {
+    background-color: #12718d;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 55%;
+    left: 94%;
 }
 
 

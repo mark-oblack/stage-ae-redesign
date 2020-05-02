@@ -35,6 +35,15 @@
     }
 }
 
+@media screen and (min-width: 550px) {
+	.event-details div .blue-circle {
+		height: 12px;
+		width: 12px;
+		top: 60%;
+		left: 95%;
+	}
+}
+
 @media screen and (min-width: 650px) {
 	input[type=search] {
 		width: 550px;
@@ -43,6 +52,11 @@
 	.event-flex-item,
 	.event-details {
 		width: 45%;
+	}
+
+	.event-details div .blue-circle {
+		top: 62%;
+		left: 90%;
 	}
 
 	.event-flex-container {
@@ -66,6 +80,11 @@
 		font-size: 16px;
 	}
 
+	.event-details div .blue-circle {
+		top: 62%;
+		left: 90%;
+	}
+
 	.primary-btn {
 		font-size: 16px;
 	}
@@ -85,5 +104,11 @@
 
 	footer ul li {
 		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.event-details div .blue-circle {
+		left: 93%;
 	}
 }
