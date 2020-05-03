@@ -10,8 +10,6 @@ function responsiveNav() {
 	} else {
 	  x.className = "topnav";
 	  y.className = "topnav-items";
-	  document.getElementById("nav-toggle").classList.remove('fa-times');
-	  document.getElementById("nav-toggle").classList.add('fa-bars');
 	  document.getElementById("nav-toggle").src="assets/icons/hamburger-w.svg";
 	}
 }
